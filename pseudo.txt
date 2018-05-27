@@ -1,0 +1,17 @@
+# kmeans++
+
+for (i in 1:k){
+	samp <- sample(k)
+	points[i, ] <- pack$data[samp, ]
+	distances <- dist_to_points(points[1:i, ])
+	sample(
+	
+}
+
+
+dist_to_points <- function(){
+	loop over data
+	for each datapoint
+		create vector of distances to each point
+		values / sum(values)
+}
